@@ -1,0 +1,11 @@
+.nav-cor {
+    background: linear-gradient(90deg, #00B6FF 0%, #7ACE4D 91.26%);
+}
+
+.botao-menu {
+    border: none;
+}
+
+.menu-header, .menu {
+    background-color: #008C8C;
+}
