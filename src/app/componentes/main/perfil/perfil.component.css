@@ -22,8 +22,18 @@
     border-radius: 10px;
 }
 
+/* .skills-quadro {
+    background-color: #E7E7E7;
+    width: 249px;
+} */
+
 .skills-titulo {
     background-color: #46AB44;
     border-radius: 10px 10px 0px 0px;
 }
 
+.skills-categoria {
+    width: 100%;
+    background: linear-gradient(0deg, #19ABE4, #19ABE4);
+    
+}
