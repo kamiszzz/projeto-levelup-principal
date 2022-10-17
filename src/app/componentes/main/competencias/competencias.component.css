@@ -1,0 +1,18 @@
+.competencias {
+   
+} 
+
+.box-competencias {
+    width: 50%;
+}
+
+
+#comp-fortes,
+#hobbies {
+    background-color: #00B7FE;
+}
+
+#comp-fracas,
+#especialidades {
+    background-color: #67DE73;
+}
