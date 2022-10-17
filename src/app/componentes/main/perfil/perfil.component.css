@@ -1,0 +1,29 @@
+
+.info-do-usuario{
+    margin: 10px;
+    width: 260px;
+    height: 180px;
+    background-color:  #7ACE4D;
+    border-radius: 10px;
+}
+
+.nome-do-usuario {
+    height: 50px;
+    padding: 5px;
+    background-color: #46AB44;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+
+.skills {
+    margin: 10px;
+    width: 260px;
+    background-color: #7ACE4D;
+    border-radius: 10px;
+}
+
+.skills-titulo {
+    background-color: #46AB44;
+    border-radius: 10px 10px 0px 0px;
+}
+
