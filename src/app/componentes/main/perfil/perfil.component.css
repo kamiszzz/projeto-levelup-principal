@@ -14,6 +14,32 @@
     border: #7ACE4D;
 }
 
+.botao-close {
+    position:absolute;
+    z-index:1;
+    top: 0%;
+    left: 100%;
+    padding:0;
+    margin:-15px 0 0 -30px;
+    background-color: #18486A;
+    border-radius: 50px
+
+}
+
+.botao-x {
+    width: 50%;
+}
+
+.escolha-perfil {
+    position: absolute;
+    display: none;
+    background-color: #18486A;
+    height: 754px;
+    border-radius: 37px;
+    border-color: #46AB44;
+    border-width: 60px;
+}
+
 
 .info-do-usuario{
     margin-bottom: 10px;
