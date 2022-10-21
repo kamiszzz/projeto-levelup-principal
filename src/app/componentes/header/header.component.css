@@ -2,6 +2,13 @@
     background: linear-gradient(90deg, #00B6FF 0%, #7ACE4D 91.26%);
 }
 
+.font-user {
+    font-size: 43px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    
+}
+
 .botao-menu {
     border: none;
 }
