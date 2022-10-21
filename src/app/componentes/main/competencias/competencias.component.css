@@ -1,12 +1,6 @@
 .competencias {
-   margin: 50px;
-} 
-
-.box-competencias {
-    width: 50%;
-    
+    margin: 50px;
 }
-
 
 #comp-fortes,
 #hobbies {
@@ -15,6 +9,8 @@
     height: 340px;
     border-radius: 15px;
     margin-bottom: 27px;
+    width: 45%;
+    margin-left: auto;
 }
 
 #comp-fracas,
@@ -24,6 +20,8 @@
     height: 340px;
     border-radius: 15px;
     margin-bottom: 27px;
+    width: 45%;
+    margin-left: auto;
 }
 
 .comp-text {
@@ -34,4 +32,3 @@
     outline: 0;
     border-radius: 15px;
 }
-
