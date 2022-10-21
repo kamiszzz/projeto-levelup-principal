@@ -117,6 +117,7 @@
 
 .div-skills {
     display: flex;
+   justify-content: space-between;
 }
 
 .font-skills {
