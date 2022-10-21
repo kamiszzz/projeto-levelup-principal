@@ -1,28 +1,32 @@
-.botao-icon{
-    position:relative;
-    text-align:center;
+.botao-icon {
+    position: relative;
+    text-align: center;
 }
-.botao-icon button{
-    position:absolute;
-    z-index:1;
+
+.botao-icon button {
+    position: absolute;
+    z-index: 1;
     top: 5%;
     left: 90%;
-    width:60px;               /* largura para o botão */
-    height:30px;              /* altura para o botão */
-    padding:0;
-    margin:-15px 0 0 -30px;   /* margem à esquerda e ao topo metade da medida do botão */
+    width: 60px;
+    /* largura para o botão */
+    height: 30px;
+    /* altura para o botão */
+    padding: 0;
+    margin: -15px 0 0 -30px;
+    /* margem à esquerda e ao topo metade da medida do botão */
     border: #7ACE4D;
 }
 
 .botao-close {
-    position:absolute;
-    z-index:1;
+    position: absolute;
+    z-index: 1;
     top: 0%;
     left: 100%;
-    padding:0;
-    margin:-15px 0 0 -30px;
+    padding: 0;
+    margin: -15px 0 0 -30px;
     background-color: #18486A;
-    border-radius: 50px
+    border-radius: 50px;
 
 }
 
@@ -41,13 +45,14 @@
 }
 
 
-.info-do-usuario{
+.info-do-usuario {
     margin-bottom: 10px;
     margin-top: 10px;
     width: 100%;
     height: 180px;
-    background-color:  #7ACE4D;
+    background-color: #7ACE4D;
     border-radius: 10px;
+    color: #FFFFFF;
 }
 
 .nome-do-usuario {
@@ -55,7 +60,9 @@
     padding: 5px;
     background-color: #46AB44;
     border-radius: 10px 10px 0px 0px;
-   
+    text-shadow: 0px 3px 3px rgba(13, 73, 12, 0.7);
+    color: #FFEE59;
+
 }
 
 
@@ -74,10 +81,12 @@
 .skills-titulo {
     background-color: #46AB44;
     border-radius: 10px 10px 0px 0px;
+    text-shadow: rgb(87, 87, 87) 2px 3px 2px;
+    color: #E7E7E7;
 }
 
 .skills-categoria {
     width: 100%;
     background: linear-gradient(0deg, #19ABE4, #19ABE4);
-    
+
 }
