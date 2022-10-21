@@ -11,7 +11,7 @@
 }
 
 .insignea-img {
-    padding: 34px;
+    padding: 20px;
 }
 
 .box-img {
@@ -20,4 +20,8 @@
 
 .font-insignea {
     color: #ffffff;
+}
+
+.box-img {
+    margin: auto;
 }

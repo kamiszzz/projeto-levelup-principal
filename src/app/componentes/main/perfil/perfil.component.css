@@ -18,6 +18,15 @@
     border: #7ACE4D;
 }
 
+.botao-emoji {
+    border: 5px solid #7ACE4D;
+    border-radius: 20px;
+}
+
+.img-thumbnail {
+   background-color:#7ACE4D;
+}
+
 .botao-close {
     position: absolute;
     z-index: 1;
