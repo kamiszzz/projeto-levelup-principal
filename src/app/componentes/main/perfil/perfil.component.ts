@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { User } from './../../../../model/User';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-perfil',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PerfilComponent implements OnInit {
 
-  constructor() { }
+/*   @Input()
+  userData!: User; */
+  @Input()
+  userData: User = new User;
+  constructor(){ }
 
   ngOnInit(): void {
+
   }
 
 }

@@ -7,6 +7,8 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { PerfilComponent } from './componentes/main/perfil/perfil.component';
 import { CompetenciasComponent } from './componentes/main/competencias/competencias.component';
 import { InsigneasComponent } from './componentes/main/insigneas/insigneas.component';
+import { GraphQLModule } from './graphql.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { InsigneasComponent } from './componentes/main/insigneas/insigneas.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GraphQLModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

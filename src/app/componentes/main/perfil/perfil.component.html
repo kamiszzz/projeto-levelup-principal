@@ -3,8 +3,9 @@
     <div class="perfil">
         <div class="perfil-imagem botao-icon">
 
-            <img src="../../../../assets/imagem/imagem-perfil.png" class="img-fluid img-thumbnail" alt="...">
+            <img src="data:image/png;base64,{{userData.profile_avatar}}" class="img-fluid img-thumbnail" alt="...">
             <button class="btn">
+              <!-- <div class="botao-emoji">{{userData.mood}}</div> -->
                 <svg width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="botao-emoji">
                     <path
                         d="M39.22 19.5C39.22 30.29 30.51 39 19.72 39C8.92997 39 0.219971 30.29 0.219971 19.5C0.219971 8.71 8.92997 0 19.72 0C30.51 0 39.22 8.71 39.22 19.5Z"
@@ -102,30 +103,30 @@
 
     <div class="info-do-usuario">
         <div class="nome-do-usuario">
-            <h3 class="text-center ff-silkscreen-bold">JaneD0e</h3>
+            <h3 class="text-center ff-silkscreen-bold">{{userData.username}}</h3>
         </div>
 
         <ul class="text-center">
             <li>
-                <p class="texto-perfil ff-silkscreen" style="text-decoration-line: underline;">Eng. Aerounáutica</p>
+                <p class="texto-perfil ff-silkscreen" style="text-decoration-line: underline;">{{userData.course}}</p>
             </li>
             <li>
-                <p class="texto-perfil ff-silkscreen" style="text-decoration-line: underline;">Level 21</p>
+                <p class="texto-perfil ff-silkscreen" style="text-decoration-line: underline;">{{"Level "+userData.age}}</p>
             </li>
             <li>
-                <p class="texto-perfil ff-silkscreen">Maga</p>
+                <p class="texto-perfil ff-silkscreen">{{userData.classe}}</p>
             </li>
         </ul>
     </div>
 
     <!-- SKILLS -->
 
-  
-        
+
+
             <div class="skills-titulo">
                 <h3 class="text-center ff-silkscreen-bold">Skills</h3>
             </div>
-             <div class="skills "> 
+             <div class="skills ">
 
             <div class="skills-quadro">
             <div class="text-center">
@@ -238,6 +239,6 @@
                     <img src="../../../../assets/imagem/setinha - projeto.svg">
                 </button>
             </div>
-        
+
     </div>
 </div>
