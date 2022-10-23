@@ -6,7 +6,6 @@
     font-size: 43px;
     color: #FFFFFF;
     text-transform: uppercase;
-    
 }
 
 .botao-menu {
@@ -16,4 +15,7 @@
 .menu-header,
 .menu {
     background-color: #008C8C;
+}
+.start-60{
+  left: 60%!important;
 }

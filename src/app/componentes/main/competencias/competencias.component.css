@@ -31,10 +31,15 @@
     border: 0 none;
     outline: 0;
     border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.82);
 }
 
 .font-box {
     font-size: 20px;
     color: #13611B;
-    
+
 }
