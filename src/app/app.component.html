@@ -1,10 +1,10 @@
 <header>
-    <app-header></app-header>
+    <app-header [name]="user.name"></app-header>
 </header>
 
 <main class="container-pag container-fluid">
-    <app-perfil></app-perfil>
-    <app-competencias></app-competencias>
+    <app-perfil [userData] = "user"></app-perfil>
+    <app-competencias  [userData] = "user"></app-competencias>
     <app-insigneas></app-insigneas>
 </main>
 

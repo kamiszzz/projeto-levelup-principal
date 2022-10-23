@@ -2,7 +2,7 @@
     width: 100%;
     border-radius: 10px;
     background-color:#00B9FF;
- 
+
 }
 
 .insignea-titulo {
@@ -11,11 +11,13 @@
 }
 
 .insignea-img {
-    padding: 20px;
+  margin: 0;
+  padding: 20px;
 }
 
 .box-img {
-    margin-right: 30px;
+  padding: 0;
+  margin: 0;
 }
 
 .font-insignea {
