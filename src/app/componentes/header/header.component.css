@@ -25,6 +25,7 @@
     background-color: #008C8C;
 }
 
+
 .menu-pag {
     display: flex;
 
@@ -37,3 +38,4 @@
 .start-60 {
     left: 60% !important;
 }
+
