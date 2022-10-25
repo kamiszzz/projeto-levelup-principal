@@ -6,7 +6,6 @@
     font-size: 43px;
     color: #FFFFFF;
     text-transform: uppercase;
-
 }
 
 .botao-menu {
@@ -25,6 +24,7 @@
     background-color: #008C8C;
 }
 
+
 .menu-pag {
     display: flex;
 
@@ -34,6 +34,7 @@
     margin: 0px 15px 25px 0px;
 }
 
-.start-60 {
-    left: 60% !important;
+.start-60{
+  left: 60%!important;
 }
+
