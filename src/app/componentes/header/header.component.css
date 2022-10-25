@@ -29,13 +29,13 @@
 .menu-pag {
     display: flex;
 
-}
+
 
 .menu-img {
     margin: 0px 15px 25px 0px;
 }
 
-.start-60 {
-    left: 60% !important;
+.start-60{
+  left: 60%!important;
 }
 
