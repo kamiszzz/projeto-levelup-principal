@@ -9,6 +9,7 @@ import { User } from 'src/model/User';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   title = 'Perfil de Joao';
 
 
@@ -39,9 +40,6 @@ export class AppComponent {
       }
       console.log("IDADE: "+ age)
       return age < 0 ? 0 : age;
-
-
-
   }
 
 
@@ -56,17 +54,24 @@ export class AppComponent {
     })
     .valueChanges
     .subscribe(({data}) => {
-      //console.log(data.findUserById)
+      this.user.competencias_fortes=""
+      this.user.competencias_fracas=""
+      this.user.hobbies =""
+      this.user.especialidades=""
+
+
+
       this.user.id =data.findUserById.id
       this.user.name =data.findUserById.name
       this.user.username =data.findUserById.username
       this.user.classe = data.findUserById.classe
       this.user.profile_avatar = data.findUserById.profile_avatar
       this.user.birthdate = data.findUserById.birthdate
+      this.user.age = this.getAge(this.user.birthdate)
+      this.user.mood = data.findUserById.userMood
       this.user.course = data.findUserById.collegeInformation.course.name
       this.user.university = data.findUserById.collegeInformation.course.university.name
-      this.user.mood = data.findUserById.userMood
-      this.user.age = this.getAge(this.user.birthdate)
+
       for(let i = 0; i<data.findUserById.strongWeakSkills.length; i++){
         if(data.findUserById.strongWeakSkills[i].type =="STRONG"){
           this.user.competencias_fortes=data.findUserById.strongWeakSkills[i].skill;
@@ -77,8 +82,8 @@ export class AppComponent {
       this.user.especialidades += data.findUserById.specialties[0].speciality;
 
 
-      /* console.log("hobbies: "+ this.user.hobbies);
-      console.log("especialidades: " +this.user.especialidades); */
+      console.log("hobbies: "+ this.user.hobbies);
+      console.log("especialidades: " +this.user.especialidades);
       return this.user;
     })
 

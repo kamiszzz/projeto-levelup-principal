@@ -10,8 +10,9 @@ export class PerfilComponent implements OnInit {
 
 /*   @Input()
   userData!: User; */
-  @Input()
-  userData: User = new User;
+
+  @Input() userData: User = new User;
+  
   constructor(){ }
 
   ngOnInit(): void {
