@@ -5,7 +5,9 @@
 
             <img src="data:image/png;base64,{{userData.profile_avatar}}" class="img-fluid img-thumbnail" alt="...">
             <button class="btn botao-do-emoji">
-         
+
+              <!-- <div class="botao-emoji">{{userData.mood}}</div> -->
+
                 <svg width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="botao-emoji">
 
                     <path
@@ -109,10 +111,12 @@
 
         <ul class="text-center largura_linha">
             <li>
+
                 <p class="texto-perfil ff-silkscreen">{{userData.course}}</p>
             </li>
             <li>
                 <p class="texto-perfil ff-silkscreen">{{"Level "+userData.age}}</p>
+
             </li>
             <li>
                 <p class="texto-perfil ff-silkscreen">{{userData.classe}}</p>
@@ -122,12 +126,11 @@
 
     <!-- SKILLS -->
 
-
-
     <div class="skills-titulo">
         <h3 class="text-center ff-silkscreen-bold">Skills</h3>
     </div>
     <div class="skills ">
+
 
         <div class="skills-quadro">
             <div class="text-center">

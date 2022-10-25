@@ -6,6 +6,7 @@
     font-size: 43px;
     color: #FFFFFF;
     text-transform: uppercase;
+
 }
 
 .botao-menu {
@@ -28,7 +29,7 @@
 .menu-pag {
     display: flex;
 
-}
+
 
 .menu-img {
     margin: 0px 15px 25px 0px;
