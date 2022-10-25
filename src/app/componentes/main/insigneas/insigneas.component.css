@@ -1,6 +1,14 @@
 .insignea {
     width: 100%;
     border-radius: 10px;
+
+    background-color: #00B9FF;
+
+}
+
+.insignea-box {
+    height: 100%;
+
     background-color:#00B9FF;
 
 }
@@ -15,10 +23,12 @@
   padding: 20px;
 }
 
+
 .box-img {
   padding: 0;
   margin: 0;
 }
+
 
 .font-insignea {
     color: #ffffff;
@@ -26,4 +36,11 @@
 
 .box-img {
     margin: auto;
+    padding: 10px;
+    background-color: #008DC2AB;
+    height: 100%;
+    border-radius: 10px
 }
+
+
+

@@ -12,10 +12,29 @@
     border: none;
 }
 
-.menu-header,
-.menu {
+
+
+.offcanvas {
+    border-radius: 10px;
+    width: 370px;
+    height: 300px;
+    margin-top: 7%;
+    margin-right: 1%;
+    padding: 10px;
     background-color: #008C8C;
 }
+
+
+.menu-pag {
+    display: flex;
+
+}
+
+.menu-img {
+    margin: 0px 15px 25px 0px;
+}
+
 .start-60{
   left: 60%!important;
 }
+
